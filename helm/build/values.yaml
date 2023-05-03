@@ -1,0 +1,15 @@
+app:
+  name: my-quarkus-app-4
+  namespace: my-quarkus-app-4-dev
+  cluster: .apps.cluster-dmsnv.dmsnv.sandbox1515.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/ohthreeinc/janus-sample-quarkus-app-4
+  org: ohthreeinc
+  name: janus-sample-quarkus-app-4
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-quarkus-app-4-dev/my-quarkus-app-4
+  tag: latest
